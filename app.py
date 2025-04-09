@@ -24,13 +24,14 @@ def predict_datapoint():
 
             )
         final_new_data=data.get_data_as_dataframe()
+        y=final_new_data['Building Type'].values[0]
         predict_pipeline=PredictPipeline()
         pred=predict_pipeline.predict(final_new_data)
     
         results=round(pred[0],1)
         #results=pred
     
-        return render_template('results.html',final_result=results)
+        return render_template('results.html',final_result=[results,y])
 
 
 @app.route('/topredict',methods=['GET'])

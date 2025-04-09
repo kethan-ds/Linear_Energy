@@ -1,0 +1,7 @@
+[ 2025-04-09 15:33:43,814 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-09 15:33:43,820 ] 97 werkzeug - INFO -  * Debugger PIN: 117-511-143
+[ 2025-04-09 15:34:21,193 ] 58 root - INFO - Dataframe Gathered
+[ 2025-04-09 15:34:21,451 ] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 15:34:21] "POST /predicted HTTP/1.1" 200 -
+[ 2025-04-09 15:34:51,743 ] 58 root - INFO - Dataframe Gathered
+[ 2025-04-09 15:34:51,800 ] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 15:34:51] "POST /predicted HTTP/1.1" 200 -
+[ 2025-04-09 15:35:42,171 ] 97 werkzeug - INFO -  * Detected change in 'C:\\DataScience\\Kethan_Projects\\Linear_Energy\\app.py', reloading

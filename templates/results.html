@@ -59,8 +59,8 @@
 
     <div class="card">
         <h1>Prediction Result</h1>
-        <h2>This prediction is done using Linear Regression</h2>
-        <p> The energy consumption of the building is {{ final_result }} in kWh (kilowatt-hours). </p>
+        
+        <p> The Predicted energy consumption for this {{ final_result[1] }} building is {{ final_result[0] }}  in kWh (kilowatt-hours). </p>
         <a href="{{ url_for('topredict') }}" class="btn">Predict Another</a>
         <a href="{{ url_for('home_page') }}" class="btn">Back to Home</a>
         <br><br>
