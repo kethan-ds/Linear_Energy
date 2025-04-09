@@ -1,0 +1,26 @@
+[ 2025-04-09 12:27:51,720 ] 27 root - INFO - Data Ingestion methods Starts
+[ 2025-04-09 12:27:51,724 ] 30 root - INFO - Dataset read as pandas Dataframe
+[ 2025-04-09 12:27:51,726 ] 34 root - INFO - Train test split
+[ 2025-04-09 12:27:51,726 ] 40 root - INFO - Ingestion of Data is completed
+[ 2025-04-09 12:27:51,726 ] 70 root - INFO - Read train and test data completed
+[ 2025-04-09 12:27:51,742 ] 71 root - INFO - Train Dataframe Head : 
+  Building Type  Square Footage  Number of Occupants  Appliances Used  Average Temperature Day of Week  Energy Consumption
+0    Industrial           36496                    5               38                24.00     Weekend             5014.79
+1    Industrial           21087                   92               42                26.97     Weekend             5179.49
+2   Residential           40486                   27               28                15.73     Weekend             4275.65
+3   Residential           39390                   52               48                20.37     Weekday             4897.66
+4   Residential           38099                   22               16                20.19     Weekend             3844.00
+[ 2025-04-09 12:27:51,742 ] 72 root - INFO - Test Dataframe Head  : 
+  Building Type  Square Footage  Number of Occupants  Appliances Used  Average Temperature Day of Week  Energy Consumption
+0    Industrial           47042                   53               32                34.36     Weekday             5900.32
+1   Residential            7924                   63               36                34.71     Weekend             3072.63
+2    Industrial            5908                   49               49                32.40     Weekend             4103.39
+3   Residential            5444                   97               42                15.11     Weekend             3506.64
+4   Residential           36642                   36               32                11.17     Weekend             4276.25
+[ 2025-04-09 12:27:51,742 ] 74 root - INFO - Obtaining preprocessing object
+[ 2025-04-09 12:27:51,742 ] 27 root - INFO - Data Transformation initiated
+[ 2025-04-09 12:27:51,742 ] 31 root - INFO - Categorical Columns : ['Building Type', 'Day of Week']
+[ 2025-04-09 12:27:51,742 ] 32 root - INFO - Numerical Columns : ['Square Footage', 'Number of Occupants', 'Appliances Used', 'Average Temperature']
+[ 2025-04-09 12:27:51,742 ] 37 root - INFO - Pipeline Initiated
+[ 2025-04-09 12:27:51,742 ] 56 root - INFO - Pipeline Completed
+[ 2025-04-09 12:27:51,757 ] 112 root - INFO - Exception occured in the initiate_datatransformation

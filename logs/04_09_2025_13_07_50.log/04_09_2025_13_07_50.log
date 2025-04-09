@@ -1,0 +1,3 @@
+[ 2025-04-09 13:07:52,345 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-09 13:07:52,345 ] 97 werkzeug - INFO -  * Debugger PIN: 117-511-143
+[ 2025-04-09 13:08:21,329 ] 97 werkzeug - INFO -  * Detected change in 'c:\\datascience\\kethan_projects\\linear_energy\\app.py', reloading

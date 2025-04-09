@@ -1,0 +1,13 @@
+prefix=C:/DataScience/Kethan_Projects/Linear_Energy/venv/Library
+exec_prefix=C:/DataScience/Kethan_Projects/Linear_Energy/venv/Library
+libdir=C:/DataScience/Kethan_Projects/Linear_Energy/venv/Library/lib
+sharedlibdir=C:/DataScience/Kethan_Projects/Linear_Energy/venv/Library/lib
+includedir=C:/DataScience/Kethan_Projects/Linear_Energy/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

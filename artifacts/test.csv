@@ -1,0 +1,21 @@
+Building Type,Square Footage,Number of Occupants,Appliances Used,Average Temperature,Day of Week,Energy Consumption
+Industrial,47042,53,32,34.36,Weekday,5900.32
+Residential,7924,63,36,34.71,Weekend,3072.63
+Industrial,5908,49,49,32.4,Weekend,4103.39
+Residential,5444,97,42,15.11,Weekend,3506.64
+Residential,36642,36,32,11.17,Weekend,4276.25
+Commercial,45772,50,45,25.48,Weekday,5611.18
+Industrial,42729,20,17,11.91,Weekend,5116.9
+Residential,28461,20,44,14.43,Weekday,3980.9
+Commercial,41401,87,15,15.54,Weekend,5162.33
+Residential,24563,15,4,28.52,Weekday,2865.57
+Residential,6155,78,43,21.89,Weekday,3388.29
+Industrial,27708,47,24,11.26,Weekend,4779.08
+Commercial,26715,27,46,13.11,Weekday,4510.2
+Commercial,19926,27,17,19.33,Weekend,3509.64
+Residential,31178,26,11,27.46,Weekday,3451.58
+Residential,36720,58,47,17.08,Weekday,4820.59
+Residential,26158,98,47,31.83,Weekday,4618.77
+Industrial,38856,36,8,14.75,Weekday,4939.07
+Industrial,31963,2,20,23.53,Weekend,4400.48
+Residential,44539,8,44,26.62,Weekday,4603.83
